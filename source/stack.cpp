@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
-#include "stack.hpp"
-#include "node.hpp"
+#include "../include/stack.hpp"
+#include "../include/node.hpp"
 
 
 namespace eda {

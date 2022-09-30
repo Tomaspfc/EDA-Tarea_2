@@ -153,6 +153,54 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+source/node.o: source/node.cpp.o
+.PHONY : source/node.o
+
+# target to build an object file
+source/node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/source/node.cpp.o
+.PHONY : source/node.cpp.o
+
+source/node.i: source/node.cpp.i
+.PHONY : source/node.i
+
+# target to preprocess a source file
+source/node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/source/node.cpp.i
+.PHONY : source/node.cpp.i
+
+source/node.s: source/node.cpp.s
+.PHONY : source/node.s
+
+# target to generate assembly for a file
+source/node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/source/node.cpp.s
+.PHONY : source/node.cpp.s
+
+source/stack.o: source/stack.cpp.o
+.PHONY : source/stack.o
+
+# target to build an object file
+source/stack.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/source/stack.cpp.o
+.PHONY : source/stack.cpp.o
+
+source/stack.i: source/stack.cpp.i
+.PHONY : source/stack.i
+
+# target to preprocess a source file
+source/stack.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/source/stack.cpp.i
+.PHONY : source/stack.cpp.i
+
+source/stack.s: source/stack.cpp.s
+.PHONY : source/stack.s
+
+# target to generate assembly for a file
+source/stack.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/source/stack.cpp.s
+.PHONY : source/stack.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,6 +213,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... source/node.o"
+	@echo "... source/node.i"
+	@echo "... source/node.s"
+	@echo "... source/stack.o"
+	@echo "... source/stack.i"
+	@echo "... source/stack.s"
 .PHONY : help
 
 

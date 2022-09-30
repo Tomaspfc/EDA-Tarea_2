@@ -1,5 +1,5 @@
-CMakeFiles/code.dir/main.cpp.o: \
-  /Users/topc/Library/CloudStorage/OneDrive-miuandes.cl/202220/Estructura_de_Datos_y_Algoritmos/Tarea\ 2/main.cpp \
+CMakeFiles/code.dir/source/stack.cpp.o: \
+  /Users/topc/Library/CloudStorage/OneDrive-miuandes.cl/202220/Estructura_de_Datos_y_Algoritmos/Tarea\ 2/source/stack.cpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/iostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__config_site \
@@ -414,11 +414,6 @@ CMakeFiles/code.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/_types/_nl_item.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/fstream \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/filesystem \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/stack \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/deque \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__split_buffer \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/iomanip \
-  /Users/topc/Library/CloudStorage/OneDrive-miuandes.cl/202220/Estructura_de_Datos_y_Algoritmos/Tarea\ 2/include/stack.hpp \
-  /Users/topc/Library/CloudStorage/OneDrive-miuandes.cl/202220/Estructura_de_Datos_y_Algoritmos/Tarea\ 2/include/node.hpp
+  /Users/topc/Library/CloudStorage/OneDrive-miuandes.cl/202220/Estructura_de_Datos_y_Algoritmos/Tarea\ 2/source/../include/stack.hpp \
+  /Users/topc/Library/CloudStorage/OneDrive-miuandes.cl/202220/Estructura_de_Datos_y_Algoritmos/Tarea\ 2/include/node.hpp \
+  /Users/topc/Library/CloudStorage/OneDrive-miuandes.cl/202220/Estructura_de_Datos_y_Algoritmos/Tarea\ 2/source/../include/node.hpp

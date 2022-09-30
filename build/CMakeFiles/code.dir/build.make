@@ -83,17 +83,49 @@ CMakeFiles/code.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/code.dir/main.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/topc/Library/CloudStorage/OneDrive-miuandes.cl/202220/Estructura_de_Datos_y_Algoritmos/Tarea 2/main.cpp" -o CMakeFiles/code.dir/main.cpp.s
 
+CMakeFiles/code.dir/source/node.cpp.o: CMakeFiles/code.dir/flags.make
+CMakeFiles/code.dir/source/node.cpp.o: /Users/topc/Library/CloudStorage/OneDrive-miuandes.cl/202220/Estructura_de_Datos_y_Algoritmos/Tarea\ 2/source/node.cpp
+CMakeFiles/code.dir/source/node.cpp.o: CMakeFiles/code.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/topc/Library/CloudStorage/OneDrive-miuandes.cl/202220/Estructura_de_Datos_y_Algoritmos/Tarea 2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/code.dir/source/node.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/code.dir/source/node.cpp.o -MF CMakeFiles/code.dir/source/node.cpp.o.d -o CMakeFiles/code.dir/source/node.cpp.o -c "/Users/topc/Library/CloudStorage/OneDrive-miuandes.cl/202220/Estructura_de_Datos_y_Algoritmos/Tarea 2/source/node.cpp"
+
+CMakeFiles/code.dir/source/node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/code.dir/source/node.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/topc/Library/CloudStorage/OneDrive-miuandes.cl/202220/Estructura_de_Datos_y_Algoritmos/Tarea 2/source/node.cpp" > CMakeFiles/code.dir/source/node.cpp.i
+
+CMakeFiles/code.dir/source/node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/code.dir/source/node.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/topc/Library/CloudStorage/OneDrive-miuandes.cl/202220/Estructura_de_Datos_y_Algoritmos/Tarea 2/source/node.cpp" -o CMakeFiles/code.dir/source/node.cpp.s
+
+CMakeFiles/code.dir/source/stack.cpp.o: CMakeFiles/code.dir/flags.make
+CMakeFiles/code.dir/source/stack.cpp.o: /Users/topc/Library/CloudStorage/OneDrive-miuandes.cl/202220/Estructura_de_Datos_y_Algoritmos/Tarea\ 2/source/stack.cpp
+CMakeFiles/code.dir/source/stack.cpp.o: CMakeFiles/code.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/topc/Library/CloudStorage/OneDrive-miuandes.cl/202220/Estructura_de_Datos_y_Algoritmos/Tarea 2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/code.dir/source/stack.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/code.dir/source/stack.cpp.o -MF CMakeFiles/code.dir/source/stack.cpp.o.d -o CMakeFiles/code.dir/source/stack.cpp.o -c "/Users/topc/Library/CloudStorage/OneDrive-miuandes.cl/202220/Estructura_de_Datos_y_Algoritmos/Tarea 2/source/stack.cpp"
+
+CMakeFiles/code.dir/source/stack.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/code.dir/source/stack.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/topc/Library/CloudStorage/OneDrive-miuandes.cl/202220/Estructura_de_Datos_y_Algoritmos/Tarea 2/source/stack.cpp" > CMakeFiles/code.dir/source/stack.cpp.i
+
+CMakeFiles/code.dir/source/stack.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/code.dir/source/stack.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/topc/Library/CloudStorage/OneDrive-miuandes.cl/202220/Estructura_de_Datos_y_Algoritmos/Tarea 2/source/stack.cpp" -o CMakeFiles/code.dir/source/stack.cpp.s
+
 # Object files for target code
 code_OBJECTS = \
-"CMakeFiles/code.dir/main.cpp.o"
+"CMakeFiles/code.dir/main.cpp.o" \
+"CMakeFiles/code.dir/source/node.cpp.o" \
+"CMakeFiles/code.dir/source/stack.cpp.o"
 
 # External object files for target code
 code_EXTERNAL_OBJECTS =
 
 code: CMakeFiles/code.dir/main.cpp.o
+code: CMakeFiles/code.dir/source/node.cpp.o
+code: CMakeFiles/code.dir/source/stack.cpp.o
 code: CMakeFiles/code.dir/build.make
 code: CMakeFiles/code.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/topc/Library/CloudStorage/OneDrive-miuandes.cl/202220/Estructura_de_Datos_y_Algoritmos/Tarea 2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable code"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/topc/Library/CloudStorage/OneDrive-miuandes.cl/202220/Estructura_de_Datos_y_Algoritmos/Tarea 2/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable code"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/code.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

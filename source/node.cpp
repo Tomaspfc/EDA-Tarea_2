@@ -1,17 +1,18 @@
-#include "node.hpp"
+#include "../include/node.hpp"
 #include <iostream>
+#include <string>
 
 namespace eda {
 
 
-Node::Node(): data(-1), ptrNext(nullptr) {
+Node::Node(): data(""), ptrNext(nullptr) {
 }
 
-Node::Node(int val, Node* next): data(val), ptrNext(next) {
+Node::Node(std::string val, Node* next): data(val), ptrNext(next) {
 
 }
 
-void Node::setData(int _data){
+void Node::setData(std::string _data){
 	data = _data;
 }
 
@@ -19,7 +20,7 @@ void Node::setNext(Node* next){
 	ptrNext = next;
 }
 
-int Node::getData(){
+std::string Node::getData(){
 	return data;
 }
 Node* Node::getNext(){
