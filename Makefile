@@ -1,8 +1,9 @@
-code:
+code: main.cpp
 	cd build && make  && cd ..
+	cp build/code code
 
 run:
-	./build/code
+	./code
 
 mk:
 	cd build && cmake .. && cd ..
