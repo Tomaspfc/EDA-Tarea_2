@@ -13,5 +13,5 @@ El ejecutable luego se copia a esta misma carpeta (con el
 nombre **validadorHTML**) para que sea mas facil ejecutarlo
 
 ## Validando un archivo
-para validar un archivo, ingrese el comando
+Para validar un archivo, ingrese el comando
     `./validadorHTML <filename>`
