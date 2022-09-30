@@ -1,6 +1,6 @@
 code: main.cpp source/node.cpp source/stack.cpp
 	cd build && make  && cd ..
-	cp build/code code
+	cp build/code validadorHTML
 
 run:
 	./code
