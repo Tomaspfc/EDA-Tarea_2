@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <fstream>
+#include "stack.hpp"
 
 int checkFile(std::string *filename) {
     std::ifstream file;
