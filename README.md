@@ -9,7 +9,7 @@ desde este mismo directorio. Hay un makefile que hace mas sencillo todo
 ## Creando el ejecutable
 Para crear el ejecutable ingrese el comando 
     `make code`
-El ejecutable luego se copia a esta misma carpeta (con el 
+. El ejecutable luego se copia a esta misma carpeta (con el 
 nombre **validadorHTML**) para que sea mas facil ejecutarlo
 
 ## Validando un archivo
