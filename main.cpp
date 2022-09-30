@@ -8,12 +8,13 @@ void checkFile(std::string *filename, std::string* logfile)
 {
     std::ifstream file;
     file.open(*filename);
-    
+
     std::ofstream log;
     log.open(*logfile);
 
     char ch;
-    int in_tag, closing = 0, errors = 0, line = 1;
+    bool in_tag = false, closing = false;
+    int errors = 0, line = 1;
 
     std::string tag_name;
     eda::Stack stack;
@@ -22,16 +23,14 @@ void checkFile(std::string *filename, std::string* logfile)
     while (file.good())
     {
         file.get(ch);
-
         switch (ch)
         {
         case '<':
-            in_tag = 1;
+            in_tag = true;
             tag_name = "";
             break;
 
         case '>':
-            // std::cout << "tag name: " << tag_name << std::endl;
             if (closing) {
                 last_tag = stack.top()->getData();
                 if (last_tag != tag_name) {
@@ -44,12 +43,12 @@ void checkFile(std::string *filename, std::string* logfile)
             } else {
                 stack.push(tag_name);
             }
-            in_tag = 0;
-            closing = 0;
+            in_tag = false;
+            closing = false;
             break;
 
         case '/':
-            closing = 1;
+            closing = true;
             break;
 
         case '\n':
@@ -58,10 +57,18 @@ void checkFile(std::string *filename, std::string* logfile)
 
         default:
             if (in_tag)
-            tag_name += ch;
+                tag_name += ch;
             break;
         }
     }
+
+    while (!stack.isEmpty()) {
+        tag_name = stack.top()->getData();
+        log << "Error: tag <" << tag_name << "> never closed" << std::endl;
+        stack.pop();
+        errors ++;
+    }
+    
     if (!errors) {
         log << "0 errors" << std::endl;
     }
