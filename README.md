@@ -15,3 +15,9 @@ nombre **validadorHTML**) para que sea mas facil ejecutarlo
 ## Validando un archivo
 Para validar un archivo, ingrese el comando
     `./validadorHTML <filename>`
+
+## Validar archivos por defecto
+Para validar los archivos existentes en la carpeta test/ ingrese el comando
+    `make run`
+. O bien ejecute el archivo sin pasarle ningun parametro ingresando el comando
+    `./validadorHTML`

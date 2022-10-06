@@ -1,0 +1,4 @@
+Error in line 3: expecting </h>, got </d>
+tag <h> ok
+tag <p1> ok
+Error: tag <p1> never closed

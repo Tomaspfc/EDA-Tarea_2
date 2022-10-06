@@ -44,7 +44,7 @@ void Stack::clear(){
 }
 
 Stack::~Stack() {
-	std::cout<<"destructor Stack"<<std::endl;
+	// std::cout<<"destructor Stack"<<std::endl;
 	clear();
 }
 
